@@ -1,0 +1,20 @@
+{
+  parser: 'babel-eslint',
+  plugins: ['react'],
+  env: {
+    browser: true,
+    es6: true,
+    node: true
+  },
+  emcaFeatures: {
+    arrowFunctions: true,
+    classes: true,
+    destructuring: true,
+    spread: true,
+    templateStrings: true,
+    jsx: true
+  },
+  rules: {
+    "consistent-return": [0]
+  }
+}
